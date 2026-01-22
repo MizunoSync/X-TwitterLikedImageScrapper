@@ -13,7 +13,7 @@ from selenium.common.exceptions import WebDriverException
 
 
 # Constants
-USERNAME = "Mizuno2074"  # Change to your Twitter username
+USERNAME = "ACCOUNTNAME"  # Change to your Twitter username
 OUTPUT_FOLDER = os.path.join(os.path.expanduser("~"), "Downloads", "TwitterScrapperThings")
 LOG_FILE = os.path.join(OUTPUT_FOLDER, "scrappedimagesXS.log")
 IMAGE_FOLDER = os.path.join(OUTPUT_FOLDER, "imagesXS")
@@ -291,3 +291,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
