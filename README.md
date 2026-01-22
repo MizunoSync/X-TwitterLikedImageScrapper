@@ -1,2 +1,4 @@
 # X-TwitterLikedImageScrapper
-This tool is able to scrape and download things on the liked tabs in twitter (only your download tabs because you can't access other users liked content anymore)
+Requirements
+pip install selenium requests
+All other imports (os, time, zipfile, shutil, tempfile, urllib) are built-in Python libraries that don't require installation.
